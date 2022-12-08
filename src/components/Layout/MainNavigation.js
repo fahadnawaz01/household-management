@@ -26,9 +26,9 @@ function MainNavigation() {
         >
           <Container fluid>
             <Link to="/">
-            <Navbar.Brand  style={{ color: "#9FE2BF" }}>
-              house help
-            </Navbar.Brand>
+              <Navbar.Brand style={{ color: "#9FE2BF" }}>
+                house help
+              </Navbar.Brand>
             </Link>
             <Navbar.Toggle
               aria-controls={`offcanvasNavbar-expand-${expand}`}
@@ -221,15 +221,16 @@ function MainNavigation() {
                     </Nav.Link>
                   )}
                   {!isLoggedIn && (
-                    <Nav.Link
-                      style={{
-                        color: "#9FE2BF",
-                        fontWeight: "701",
-                      }}
-                      href="/auth"
-                    >
-                      Login
-                    </Nav.Link>
+                    <Link to="/auth">
+                      <Nav.Link
+                        style={{
+                          color: "#9FE2BF",
+                          fontWeight: "701",
+                        }}
+                      >
+                        Login
+                      </Nav.Link>
+                    </Link>
                   )}
                 </Nav>
               </Offcanvas.Body>
