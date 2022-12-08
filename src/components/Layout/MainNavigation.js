@@ -6,6 +6,7 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useContext } from "react";
 import AuthContext from "../store/auth-context";
+import { Link } from "react-router-dom";
 
 function MainNavigation() {
   const authCtx = useContext(AuthContext);
@@ -24,9 +25,11 @@ function MainNavigation() {
           className="mb-3"
         >
           <Container fluid>
-            <Navbar.Brand href="/" style={{ color: "#9FE2BF" }}>
+            <Link to="/">
+            <Navbar.Brand  style={{ color: "#9FE2BF" }}>
               house help
             </Navbar.Brand>
+            </Link>
             <Navbar.Toggle
               aria-controls={`offcanvasNavbar-expand-${expand}`}
               style={{ backgroundColor: "#9FE2BF", border: "3px solid black" }}
