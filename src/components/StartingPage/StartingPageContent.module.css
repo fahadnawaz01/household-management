@@ -1,0 +1,22 @@
+.starting {
+  text-shadow: #e613db;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-size: 10rem;
+  background-image: url('C:\Users\mfn01\OneDrive\Documents\College\mini p\node and mongodb\hhm\src\components\StartingPage\wall.jpg');
+  text-align: center;
+  position: absolute;
+  background-size: cover;
+  margin-top: 0%;
+  width: 100%;
+  height: 100%;
+  color: #e613db;
+
+
+}
+
+.wall h1 {
+  font-size: 10rem;
+  position: absolute;
+  text-align: center;
+  
+}

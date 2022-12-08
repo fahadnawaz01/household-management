@@ -1,0 +1,76 @@
+.container  {
+    margin: 2rem auto;
+    max-width: 50rem;
+    border-radius: 6px;
+    width: 50%;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    border: 3px solid black;
+    padding: 2rem;
+    background-color: #e27d60;
+    text-align: center;
+}
+.container form {
+
+    color: #9fe2bf;
+  }
+  
+  .container input {
+    font: inherit;
+    background-color: #41b3a3;
+    color: #c3073f;
+    border-radius: 4px;
+    border: 3px solid black;
+    width: 100%;
+    text-align: left;
+    padding: 0.25rem;
+  }
+
+  .container textarea {
+    font: inherit;
+    background-color: #41b3a3;
+    color: #c3073f;
+    border-radius: 4px;
+    border: 3px solid black;
+    width: 100%;
+    text-align: left;
+    padding: 0.25rem;
+    margin-left: 0%;
+  }
+  .container select {
+    font: inherit;
+    background-color: #41b3a3;
+    color: #c3073f;
+    border-radius: 4px;
+    border: 3px solid black;
+    width: 100%;
+    text-align: left;
+    padding: 0.25rem;
+  }
+  .container option {
+    font: inherit;
+    background-color: #41b3a3;
+    color: #c3073f;
+    border-radius: 4px;
+    border: 3px solid black;
+    width: 100%;
+    text-align: left;
+    padding: 0.25rem;
+  }
+
+  .container button {
+    cursor: pointer;
+    font: inherit;
+    color: #190061;
+    background-color: #9fe2bf;
+    border: 1px solid black;
+    border-radius: 4px;
+    align-self: center;
+    align-self: center;
+    padding: 0.5rem 2.5rem;
+  }
+
+  .container button:hover {
+    background-color: transparent;
+    color: #41b3a3;
+    
+  }

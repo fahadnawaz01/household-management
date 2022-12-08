@@ -1,0 +1,39 @@
+.text-center {
+    margin: 2rem auto;
+    max-width: 50rem;
+    border-radius: 6px;
+    width: 50%;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    border: 3px solid black;
+    padding: 1rem;
+    background-color: #e27d60;
+    color: #9fe2bf;
+   
+}
+
+.rejbutton {
+    border-radius: 4px;
+    border: 3px solid black;
+    color: #d51f1c;
+    background-color: #9fe2bf;
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    right: 80px;
+  }
+  
+  .accbutton {
+    border-radius: 4px;
+    border: 3px solid black;
+    color: #d51f1c;
+    background-color: #9fe2bf;
+    margin-bottom: 40px;
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    right: 200px;
+  }
+
+
+
